@@ -96,13 +96,13 @@ p{
       height: 100%;
       overflow: auto;
       align-items: center;
-      margin-left: 70px;
+      margin-left: 50px;
     }
     .overlay {
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
         width: 400px;
-        margin-left: 60px;
+        margin-left: 50px;
     }
     .flexbox-item1 {
       justify-content: space-between;
@@ -111,7 +111,7 @@ p{
       border-bottom-right-radius: 5px;
       height: 100%;
       align-items: center;
-      margin-left: 60px;
+      margin-left: 50px;
     }
     p {
       padding-right: 0px;
