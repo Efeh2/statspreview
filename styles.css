@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(233, 47%, 7%);
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+}
+.flexbox-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7rem;
+}
+.flexbox-item1{
+    width: 450px;
+    height: 380px;
+    background-color: hsl(244, 38%, 16%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.flexbox-item2{
+    width: 450px;
+    height: 380px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+}
+img{
+    width: 450px;
+    height: 380px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.overlay{
+    position: absolute;
+    width: 450px;
+    height: 380px;
+    background: rgba(154, 7, 159, 0.308);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+h1{
+    color:  hsla(0, 0%, 100%, 0.75);
+    padding-inline: 27px;
+    padding: 3rem;
+    font-weight: bolder;
+}
+.insights{
+    color:  hsl(277, 64%, 61%);
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-inline: 43px;
+}
+.stat{
+    padding-inline: 45px;
+    padding: 3rem;
+    font-family: Lexend Deca, sans-serif;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-weight: 700;
+}
+.stats{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: 100;
+    padding-inline: 5px;
+    justify-content: space-between;
+}
+@media (max-width: 1000px) {
+    body{
+        height: 80vh;
+        width: 90vw;
+    }
+    .flexbox-container {
+      margin: 5vh;
+      flex-direction: column-reverse;
+      justify-content: space-between;
+    }
+    img {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      width: var(--width);
+      height: 100%;
+      overflow: auto;
+    }
+    .overlay {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .flexbox-item1 {
+      flex-direction: column;
+      justify-content: space-between;
+      padding-right: 0px;
+    }
+    .flexbox-item1 > div {
+      padding-top: 5vw;
+    }
+    p {
+      padding-right: 0px;
+    }
+}
