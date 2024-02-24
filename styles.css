@@ -95,6 +95,7 @@ p{
       width: 400px;
       height: 100%;
       overflow: auto;
+      align-items: center;
     }
     .overlay {
         border-top-left-radius: 5px;
@@ -104,11 +105,11 @@ p{
     .flexbox-item1 {
       flex-direction: column;
       justify-content: space-between;
-      padding-right: 0px;
       width: 400px;
       border-bottom-left-radius: 5px;
       border-bottom-right-radius: 5px;
       height: 100%;
+      align-items: center;
     }
     .flexbox-item1 > div {
       padding-top: 5vw;
@@ -118,5 +119,6 @@ p{
     }
     .stat{
        flex-direction: column;
+       display: flex;
     }
 }
