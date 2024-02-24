@@ -81,8 +81,8 @@ p{
 }
 @media (max-width: 1000px) {
     body{
-        height: 80vh;
-        width: 90vw;
+        height: 90vh;
+        width: 70vw;
     }
     .flexbox-container {
       margin: 5vh;
