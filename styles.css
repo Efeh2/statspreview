@@ -92,26 +92,31 @@ p{
     img {
       border-top-left-radius: 5px;
       border-top-right-radius: 5px;
-      width: 300px;
+      width: 400px;
       height: 100%;
       overflow: auto;
     }
     .overlay {
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
+        width: 400px;
     }
     .flexbox-item1 {
       flex-direction: column;
       justify-content: space-between;
       padding-right: 0px;
-      width: 300px;
+      width: 400px;
       border-bottom-left-radius: 5px;
       border-bottom-right-radius: 5px;
+      height: 100%;
     }
     .flexbox-item1 > div {
       padding-top: 5vw;
     }
     p {
       padding-right: 0px;
+    }
+    .stat{
+       flex-direction: column;
     }
 }
