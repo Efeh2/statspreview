@@ -96,23 +96,22 @@ p{
       height: 100%;
       overflow: auto;
       align-items: center;
+      margin-left: 50px;
     }
     .overlay {
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
         width: 400px;
+        margin-left: 50px;
     }
     .flexbox-item1 {
-      flex-direction: column;
       justify-content: space-between;
       width: 400px;
       border-bottom-left-radius: 5px;
       border-bottom-right-radius: 5px;
       height: 100%;
       align-items: center;
-    }
-    .flexbox-item1 > div {
-      padding-top: 5vw;
+      margin-left: 50px;
     }
     p {
       padding-right: 0px;
