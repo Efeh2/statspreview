@@ -92,7 +92,7 @@ p{
     img {
       border-top-left-radius: 5px;
       border-top-right-radius: 5px;
-      width: var(--width);
+      width: 300px;
       height: 100%;
       overflow: auto;
     }
@@ -104,6 +104,9 @@ p{
       flex-direction: column;
       justify-content: space-between;
       padding-right: 0px;
+      width: 300px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
     }
     .flexbox-item1 > div {
       padding-top: 5vw;
