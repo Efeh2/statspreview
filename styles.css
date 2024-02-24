@@ -96,13 +96,13 @@ p{
       height: 100%;
       overflow: auto;
       align-items: center;
-      margin-left: 60px;
+      margin-left: 70px;
     }
     .overlay {
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
         width: 400px;
-        margin-left: 50px;
+        margin-left: 60px;
     }
     .flexbox-item1 {
       justify-content: space-between;
