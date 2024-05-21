@@ -80,44 +80,37 @@ p{
     justify-content: space-between;
 }
 @media (max-width: 1000px) {
-    body{
-        height: 90vh;
-        width: 70vw;
-    }
     .flexbox-container {
-      margin: 5vh;
-      flex-direction: column-reverse;
-      justify-content: space-between;
-    }
-    img {
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
-      width: 400px;
-      height: 100%;
-      overflow: auto;
-      align-items: center;
-      margin-left: 50px;
-    }
-    .overlay {
+        margin: 5vh;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+      img {
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
-        width: 400px;
-        margin-left: 50px;
-    }
-    .flexbox-item1 {
-      justify-content: space-between;
-      width: 400px;
-      border-bottom-left-radius: 5px;
-      border-bottom-right-radius: 5px;
-      height: 100%;
-      align-items: center;
-      margin-left: 50px;
-    }
-    p {
-      padding-right: 0px;
-    }
-    .stat{
-       flex-direction: column;
-       display: flex;
-    }
-}
+        width: var(--width);
+        height: 100%;
+        overflow: auto;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 0px;
+      }
+      .overlay {
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+      }
+      .flexbox-item1 {
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 0px;
+      }
+      .flexbox-item1 > div {
+        padding-top: 5vw;
+      }
+      p {
+        padding-right: 0px;
+      }
+  }
